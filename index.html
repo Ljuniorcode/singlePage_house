@@ -10,7 +10,38 @@
 </head>
 
 <body>
-  <section class="container">
+  <header>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" 
+          class="navbar-toggle collapsed"  
+          data-toggle="collapse" 
+          data-target="#collapse-navbar" 
+          aaria-expanded="false">
+            <span class="sr-only">Toogle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        
+        <a class="navbar-brand" href="#">TopCasaFina Arquitetura</a>
+  
+        <div class="collapse navbar-collapse" id="collapse-navbar">
+          <ul class="nav navbar-nav">
+            <li><a href="#sobre-nos">Sobre Nós</a></li>
+            <li><a href="#nossos-projetos">Nossos Projetos</a></li>
+            <li><a href="#depoimentos">Depoimentos</a></li>
+            <li><a href="#video">Vídeo</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section id="sobre-nos" class="container">
 
     <h2>Sobre nós</h2>
     <img class="img-responsive" src="assets/img/empresa.jpg" alt="Imagem de duas pessoas trabalhando">
@@ -62,7 +93,7 @@
     </div>
   </div>
 
-  <section class="container">
+  <section id="nossos-projetos" class="container">
     <h2>Nossos Projetos</h2>
 
     <figure class="thumbnail">
@@ -114,7 +145,7 @@
     </figure>
   </section>
 
-  <h3 class="container titulo-depoimentos">Depoimentos de Clientes </h3>
+  <h3 id="depoimentos" class="container titulo-depoimentos">Depoimentos de Clientes </h3>
 
   <!--Indicators-->
   <section class="carousel">
@@ -164,16 +195,18 @@
     </a>
   </section>
 
-  <div class="container">
-    <h2>Como os castelos eram por dentro</h2>
-    <div class="embed-responsive embed-responsive-16by9">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/0EsL932Pt6g" frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-      </iframe>
+  <section id="video">
+    <div class="container">
+      <h2>Como os castelos eram por dentro</h2>
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/0EsL932Pt6g" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+      </div>
     </div>
-  </div>
+  </section>
 
-  <section class="container">
+  <section id="contato" class="container">
     <h2>Contato</h2>
     <p>Entre em contato conosco</p>
 

@@ -14,20 +14,17 @@
     <nav class="navbar navbar-default">
       <div class="container">
         <div class="navbar-header">
-          <button type="button" 
-          class="navbar-toggle collapsed"  
-          data-toggle="collapse" 
-          data-target="#collapse-navbar" 
-          aaria-expanded="false">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse-navbar"
+            aaria-expanded="false">
             <span class="sr-only">Toogle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
         </div>
-        
+
         <a class="navbar-brand" href="#">TopCasaFina Arquitetura</a>
-  
+
         <div class="collapse navbar-collapse" id="collapse-navbar">
           <ul class="nav navbar-nav">
             <li><a href="#sobre-nos">Sobre Nós</a></li>
@@ -50,46 +47,51 @@
   <section id="sobre-nos" class="container">
 
     <h2>Sobre nós</h2>
-    <img class="img-responsive" src="assets/img/empresa.jpg" alt="Imagem de duas pessoas trabalhando">
+    <div class="row">
+      <img class="img-responsive col-sm-6" src="assets/img/empresa.jpg" alt="Imagem de duas pessoas trabalhando">
 
-    <div class="panel-group" id="paineis-sobre">
-      <div class="panel panel-default">
-        <div class="panel-heading">
-          <h3 class="panel-title" data-toggle="collapse" data-target="#primeiro-paragrafo" data-parent="#paineis-sobre">
-            Desde 1935</h3>
-        </div>
-        <div id="primeiro-paragrafo" class="collapse in">
-          <div class="panel-body">
-            <p>A TopCasaFina Arquitetura está no mercado desde...</p>
+      <div class="panel-group col-sm-6" id="paineis-sobre">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title" data-toggle="collapse" data-target="#primeiro-paragrafo"
+              data-parent="#paineis-sobre">
+              Desde 1935</h3>
+          </div>
+          <div id="primeiro-paragrafo" class="collapse in">
+            <div class="panel-body">
+              <p>A TopCasaFina Arquitetura está no mercado desde...</p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="panel panel-default">
-        <div class="panel-heading">
-          <h3 class="panel-title" data-toggle="collapse" data-target="#segundo-paragrafo" data-parent="#paineis-sobre">
-            Preços acessíveis</h3>
-        </div>
-        <div id="segundo-paragrafo" class="collapse">
-          <div class="panel-body">
-            <p>Preços a partir de R$ 1.000,00</p>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title" data-toggle="collapse" data-target="#segundo-paragrafo"
+              data-parent="#paineis-sobre">
+              Preços acessíveis</h3>
+          </div>
+          <div id="segundo-paragrafo" class="collapse">
+            <div class="panel-body">
+              <p>Preços a partir de R$ 1.000,00</p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="panel panel-default">
-        <div class="panel-heading">
-          <h3 class="panel-title" data-toggle="collapse" data-target="#terceiro-paragrafo" data-parent="#paineis-sobre">
-            Alegria para colaborar com um
-            mundo mais bonito</h3>
-        </div>
-        <div id="terceiro-paragrafo" class="collapse">
-          <div class="panel-body">
-            <p>A TopCasaFina Arquitetura está no mercado desde...</p>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title" data-toggle="collapse" data-target="#terceiro-paragrafo"
+              data-parent="#paineis-sobre">
+              Alegria para colaborar com um
+              mundo mais bonito</h3>
+          </div>
+          <div id="terceiro-paragrafo" class="collapse">
+            <div class="panel-body">
+              <p>A TopCasaFina Arquitetura está no mercado desde...</p>
+            </div>
           </div>
         </div>
-      </div>
-    </div> <!-- panel-group -->
+      </div> <!-- panel-group -->
+    </div>
   </section> <!-- container -->
 
   <div class="jumbotron">
@@ -102,53 +104,68 @@
   <section id="nossos-projetos" class="container">
     <h2>Nossos Projetos</h2>
 
-    <figure class="thumbnail">
-      <img src="./assets/img/castelo.jpg" alt="Foto da Casa Castelo">
-      <figcaption class="caption">
-        <h3>Casa Castelo</h3>
-        <p>A Casa Castelo é o último lançamento da TopCasaFina Arquitetura, feita para um monge.</p>
-      </figcaption>
-    </figure>
+    <div class="row">
+      <div class="col-sm-6">
+        <figure class="thumbnail col-sm-6">
+          <img src="./assets/img/castelo.jpg" alt="Foto da Casa Castelo">
+          <figcaption class="caption">
+            <h3>Casa Castelo</h3>
+            <p>A Casa Castelo é o último lançamento da TopCasaFina Arquitetura, feita para um monge.</p>
+          </figcaption>
+        </figure>
+      </div>
 
-    <figure class="thumbnail">
-      <img src="./assets/img/projetos/casa-lago.png" alt="Casa no lago">
-      <figcaption class="caption">
-        <h3>Casa Lago</h3>
-        <p>A Casa Lago é o primeiro lançamento da TopCasaFina Arquitetura, feita para um monge.</p>
-      </figcaption>
-    </figure>
+      <div class="col-sm-6"></div>
+      <figure class="thumbnail col-sm-6">
+        <img src="./assets/img/projetos/casa-lago.png" alt="Casa no lago">
+        <figcaption class="caption">
+          <h3>Casa Lago</h3>
+          <p>A Casa Lago é o primeiro lançamento da TopCasaFina Arquitetura, feita para um monge.</p>
+        </figcaption>
+      </figure>
+    </div>
 
-    <figure class="thumbnail">
-      <img src="./assets/img/projetos/mercado-marapira.png" alt="Mercado maratop">
-      <figcaption class="caption">
-        <h3>Mercado Maratop</h3>
-        <p>O mercado Maratopé faz parte das obras fora da curva.</p>
-      </figcaption>
-    </figure>
+    <div class="row">
+      <figure class="thumbnail col-sm-6">
+        <img src="./assets/img/projetos/mercado-marapira.png" alt="Mercado maratop">
+        <figcaption class="caption">
+          <h3>Mercado Maratop</h3>
+          <p>O mercado Maratopé faz parte das obras fora da curva.</p>
+        </figcaption>
+      </figure>
+    </div>
 
-    <figure class="thumbnail">
-      <img src="./assets/img/projetos/palacio-dionisio.png" alt="Palácio Dionisio">
-      <figcaption class="caption">
-        <h3>Palácio Dionísio</h3>
-        <p>O Palácio foi construída para a família real do rei XV.</p>
-      </figcaption>
-    </figure>
+    <div class="row">
+      <figure class="thumbnail col-sm-6">
+        <img src="./assets/img/projetos/palacio-dionisio.png" alt="Palácio Dionisio">
+        <figcaption class="caption">
+          <h3>Palácio Dionísio</h3>
+          <p>O Palácio foi construída para a família real do rei XV.</p>
+        </figcaption>
+      </figure>
+    </div>
 
-    <figure class="thumbnail">
-      <img src="./assets/img/projetos/residencia-ludi.png" alt="Residência">
-      <figcaption class="caption">
-        <h3>Residência Mon</h3>
-        <p>A Residência Mon só abre na primavera e foi feita para abrigar até 5 pessoas.</p>
-      </figcaption>
-    </figure>
+    <div class="row">
+      <figure class="thumbnail col-sm-6">
+        <img src="./assets/img/projetos/residencia-ludi.png" alt="Residência">
+        <figcaption class="caption">
+          <h3>Residência Mon</h3>
+          <p>A Residência Mon só abre na primavera e foi feita para abrigar até 5 pessoas.</p>
+        </figcaption>
+      </figure>
+    </div>
 
-    <figure class="thumbnail">
-      <img src="./assets/img/projetos/casa-castelo.png" alt="Foto da Casa Castelo">
-      <figcaption class="caption">
-        <h3>Castelo dos Devs</h3>
-        <p>O Castelo foi construído para abrigar todos os desenvolvedores iniciantes de 2020</p>
-      </figcaption>
-    </figure>
+    <div class="row">
+      <figure class="thumbnail col-sm-6">
+        <img src="./assets/img/projetos/casa-castelo.png" alt="Foto da Casa Castelo">
+        <figcaption class="caption">
+          <h3>Castelo dos Devs</h3>
+          <p>O Castelo foi construído para abrigar todos os desenvolvedores iniciantes de 2020</p>
+        </figcaption>
+      </figure>
+    </div>
+
+    </div>
   </section>
 
   <h3 id="depoimentos" class="container titulo-depoimentos">Depoimentos de Clientes </h3>
@@ -201,90 +218,84 @@
     </a>
   </section>
 
-  <section id="video">
-    <div class="container">
-      <h2>Como os castelos eram por dentro</h2>
-      <div class="embed-responsive embed-responsive-16by9">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/0EsL932Pt6g" frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-        </iframe>
-      </div>
-    </div>
-  </section>
+  <div class="container">
 
-  <section id="contato" class="container">
-    <h2>Contato</h2>
-    <p>Entre em contato conosco</p>
 
-    <form>
-			<div class="form-group">
-				<label for="contato-nome">Nome:</label>
-				<input id="contato-nome" class="form-control" type="text" placeholder="Seu nome">
-			</div>
+    <div class="row">
 
-			<div class="form-group">
-				<label for="contato-email">E-mail:</label>
-				<div class="input-group">
-					<div class="input-group-addon">@</div>
-	      	<input id="contato-email" class="form-control" type="email" placeholder="Seu e-mail">
-      	</div>
-			</div>
 
-			<div class="grupo-radio">
-				<div class="radio">
-					<label>
-						<input type="radio" name="tipo-pessoa" value="fisica" checked>
-						Pessoa física
-					</label>
-				</div>
+      <section id="video" class="col-sm-6">
+        <div class="container">
+          <h2>Como os castelos eram por dentro</h2>
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/0EsL932Pt6g" frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+      </section>
 
-				<div class="radio">
-					<label>
-						<input type="radio" name="tipo-pessoa" value="juridica">
-						Pessoa jurídica
-					</label>
-				</div>
-			</div><!--
+      <section id="contato" class="col-sm-6">
+        <h2>Contato</h2>
+        <p>Entre em contato conosco</p>
+
+        <form>
+          <div class="form-group">
+            <label for="contato-nome">Nome:</label>
+            <input id="contato-nome" class="form-control" type="text" placeholder="Seu nome">
+          </div>
+
+          <div class="form-group">
+            <label for="contato-email">E-mail:</label>
+            <div class="input-group">
+              <div class="input-group-addon">@</div>
+              <input id="contato-email" class="form-control" type="email" placeholder="Seu e-mail">
+            </div>
+          </div>
+
+          <div class="grupo-radio">
+            <div class="radio">
+              <label>
+                <input type="radio" name="tipo-pessoa" value="fisica" checked>
+                Pessoa física
+              </label>
+            </div>
+
+            <div class="radio">
+              <label>
+                <input type="radio" name="tipo-pessoa" value="juridica">
+                Pessoa jurídica
+              </label>
+            </div>
+          </div>
+          <!--
 
 			--><select class="contato-select form-control" name="tipo-solicitacao">
-				<option value="" disabled selected>Tipo de solicitação</option>
-			  <option value="casa">Casa</option>
-			  <option value="apartamento">Apartamento</option>
-			  <option value="mansao">Mansão</option>
-			</select>
+            <option value="" disabled selected>Tipo de solicitação</option>
+            <option value="casa">Casa</option>
+            <option value="apartamento">Apartamento</option>
+            <option value="mansao">Mansão</option>
+          </select>
 
-			<button type="submit" class="btn btn-primary">Enviar</button>
+          <button type="submit" class="btn btn-primary">Enviar</button>
 
-		</form>
-      <!--
+      </section>
 
-      -->
-      <select class="contato-select form-control" name="tipo-solicitacao">
-        <option disabled selected>Tipo de situação</option>
-        <option>Apartamento</option>
-        <option>Casa</option>
-        <option>Pousada</option>
-        <option>Casa de Praia</option>
-      </select>
+      <footer>
+        <address>
+          <strong>Arquitetura</strong><br>
+          Rua Vergueiro, 3185, Vila Mariana<br>
+          São Paulo, SP<br>
+          Tel: (11) 5571-2751 ou 5083-3884<br>
+          Email: contato.topcasafina@alura.com.br<br>
+        </address>
 
-      <button class="btn btn-primary">Enviar</button>
-
-    </form>    
-  </section>
-
-  <footer>
-    <address>
-      <strong>Arquitetura</strong><br>
-      Rua Vergueiro, 3185, Vila Mariana<br>
-      São Paulo, SP<br>
-      Tel: (11) 5571-2751 ou 5083-3884<br>
-      Email: contato.topcasafina@alura.com.br<br>
-    </address>
-  
-    <address>
-      Email: contato@omundo.com.br
-    </address>
-  </footer>
+        <address>
+          Email: contato@omundo.com.br
+        </address>
+      </footer>
+    </div>
+  </div>
 
 
   <script src="assets/js/jquery.js"></script>
